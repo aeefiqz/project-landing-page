@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family:'roboto','sans-serif';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+header,footer {
+    background-color:#1F2937
+}
+
+h2.nav-heading {
+    font-size:24px;
+}
+
+.nav-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h2.nav-heading,
+.content-heading {
+    color:#f9faf8;
+}
+
+.content-heading {
+    font-size:48px;
+    font-weight:extra-bold;
+    margin: 0;
+}
+.nav-bar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    
+}
+
+.nav-links {
+    display:flex;
+    padding-right: 270px;
+}
+.content-container {
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color:#1F2937;
+    height: 400px;
+    padding: 50px;
+    
+}
+.content-header {
+    display:flex;
+    flex-direction: column;
+    width: 350px;
+    /* flex-basis: 450px; */
+    
+}
+.content-img {
+    display:flex;
+    width:400px;
+    height:250px;
+    background-color: white;
+    text-align:center;
+    margin: 160px;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+div.content-header > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight:700;
+}
+.content-btn {
+    border-radius:10px;
+    background-color:#24A0ED;
+    color:white;
+    font-size:16px;
+    font-weight: 800;
+    padding: 10px 10px;
+    width:140px;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.nav-links {
+    display:flex;
+    gap: 10px;
+}
+
+.information-container {
+    height:350px; 
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    padding: 0px;
+    margin:0 auto;
+}
+
+.information-header {
+    font-size:24px;
+    font-weight:extra-bold;
+}
+
+.card-container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.card {
+    border: 3px solid #24A0ED;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 16px;
+    width: 120px;
+    flex:1;
+}
